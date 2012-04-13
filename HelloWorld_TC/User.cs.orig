@@ -14,7 +14,11 @@ namespace HelloWorld_TC
 
         public bool GetWellBeing()
         {
+<<<<<<< HEAD
             Console.WriteLine("How are you, " + Name + "?"); //Windows FTW
+=======
+            Console.WriteLine("How are you, " + Name + "? "); //HelloLinux
+>>>>>>> ccd597811386bfd467b55e317ac5a2b0685a412c
             Console.WriteLine("[G]ood, [B]ad: ");
             Char c = Console.ReadKey().KeyChar;
 
